@@ -69,7 +69,7 @@ public class Main {
             return ans;
         }
         if(D==0){
-            double x=-b/2*a;
+            double x=-b/(2*a);
             ans.add(x);
             System.out.println("Корень x="+x);
             return ans;
