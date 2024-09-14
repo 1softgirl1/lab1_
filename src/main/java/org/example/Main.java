@@ -3,19 +3,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
         int n = 500;
         List<String> result = first_task(n);
         System.out.println(result);
-
-
-        //first_task();
-        //second_task();
-        //third_task();
-        //fourth_task();
-        //fifth_task();
 
     }
     public static List<String> first_task(int n) {
